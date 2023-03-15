@@ -7,7 +7,7 @@ string[] cibipreferiti = { "Lasagne", "Pollo", "Cheesecake", "PatateFritte", "Su
 
 
 
-Console.WriteLine("La lista contiene" + " " + cibipreferiti.Length + " " + "cibi");
+Console.WriteLine("La lista contiene" + " " + cibipreferiti.Length + " " + "cibi:");
 
 
 for (int i = 0; i < cibipreferiti.Length; i++)
@@ -17,4 +17,8 @@ for (int i = 0; i < cibipreferiti.Length; i++)
 
 
 Console.WriteLine("Al primo posto abbiamo:" + " " + cibipreferiti[0]);
+
+Console.WriteLine("In fondo alla classifica abbiamo:" + " " + cibipreferiti[cibipreferiti.Length-1]);
+
+Console.WriteLine("In mezzo alla classifica abbiamo:" + " " + cibipreferiti[(cibipreferiti.Length - 1) /2]);
 
